@@ -18,6 +18,7 @@ Steps done to do the project:
 * Data tranformation
 
 ## Installation
-To clone the repository use the below link
+To clone the repository use the below link:
+---
 https://github.com/RYees/AgriTech---USGS-LIDAR-.git
 
