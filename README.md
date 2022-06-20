@@ -22,5 +22,5 @@ Steps done to do the project:
 ## Installation
 To clone the repository use the below link:
 ---
-https://github.com/RYees/AgriTech---USGS-LIDAR-.git
+    https://github.com/RYees/AgriTech---USGS-LIDAR-.git
 
