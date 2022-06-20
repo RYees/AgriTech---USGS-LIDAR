@@ -8,6 +8,4 @@ This project is about the job that will be done for Agri tech, which is a compan
 ## Introduction
 As indicated in the overview this project is done for the Agri tech and As part of the data engineering team, I am required to produce an easy to use, reliable and well designed python module that domain experts and data scientists can use to fetch, visualise, and transform publicly available satellite and LIDAR data. In particular, my code should interface with USGS 3DEP and fetch data using their API. 
 ## Installation
----bash
-sudo
----
+
