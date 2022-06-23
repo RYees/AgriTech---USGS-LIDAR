@@ -1,9 +1,12 @@
+import json
 import pandas as pd
+from config import Config
+from log import get_logger
 
 class FileHandler():
-    
+
     def __init__(self):
-        pass 
+      self._logger = get_logger("FileHandler")
     
     def set_output_file_name(self,file_name:str):
         output_name_laz = 'laz/' + str(file_name) +'.'+ 'laz'
@@ -11,7 +14,7 @@ class FileHandler():
         
         return output_name_laz, output_name_tif
 
-    def save_csv(self, df: pd.DataFrame, name: str, index: bool = False) -> None:        
+    def save_csv(self, name: str ) -> None:        
       """ Saves CSV file to disk
 
       Args:
@@ -21,8 +24,8 @@ class FileHandler():
       """
 
       try:
-        path = Config.ASSETS_PATH / str(name + '.csv')
-        df.to_csv(path, index=index)
+        path = Config.DATA_PATH / str(name + '.csv')
+        # df.to_csv(path, index=index)
         self._logger.info(f"{name} is saved successfully in csv format")
       except Exception:
         self._logger.exception(f"{name} save failed")
