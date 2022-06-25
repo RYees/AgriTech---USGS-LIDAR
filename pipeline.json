@@ -30,13 +30,13 @@
         "type": "filters.range", "tag": "classify"
     }, 
     {
-        "filename": "dec.las", 
+        "filename": "./laz-las-json/iowa.las", 
         "inputs": ["classify"], 
         "tag": "writerslas", 
         "type": "writers.las"
     }, 
     {
-        "filename": "dec.tif", 
+        "filename": "./Figures/iowa.tif", 
         "gdalopts": "tiled=yes,     compress=deflate",
         "inputs": ["writerslas"], 
         "nodata": -9999, 
