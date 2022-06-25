@@ -26,7 +26,7 @@ class Region():
     
     def get_regions_list(self):
         try:
-            with open('../regions.txt') as f:
+            with open('../Data/datapath.txt') as f:
                 region = f.read()
                 print(region)
         except Exception:
