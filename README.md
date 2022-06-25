@@ -25,6 +25,5 @@ To clone the repository use the below link:
     https://github.com/RYees/AgriTech---USGS-LIDAR.git
     
 ## Python Package
---- 
-   pip install -i https://test.pypi.org/simple/ agritech-api-package01==0.0.1
+    pip install -i https://test.pypi.org/simple/ agritech-api-package01==0.0.1
 
